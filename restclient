@@ -1,0 +1,5 @@
+# -*- mode: restclient -*-
+
+GET http://localhost:5000/
+
+POST http://localhost:5000/generate?iff=1&off=2
