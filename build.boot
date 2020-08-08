@@ -3,10 +3,10 @@
 
 (set-env! :resource-paths #{"resources" "src"}
           :source-paths   #{"test"}
-          :dependencies   '[[org.clojure/clojure "RELEASE"]
+          :dependencies   '[[org.clojure/clojure "1.8.0"]
                             [adzerk/boot-test "RELEASE" :scope "test"]
                             [compojure "1.6.2"]
-                            [ring "1.8.1"]])
+                            [http-kit "2.3.0"]])
 
 (task-options!
  aot {:namespace   #{'simpleapp.core}}
